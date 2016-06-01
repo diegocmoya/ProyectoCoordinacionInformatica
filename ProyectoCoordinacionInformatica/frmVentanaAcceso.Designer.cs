@@ -2,15 +2,15 @@
 {
     partial class frmVentanaAcceso
     {
-        /// <summary>
+        ///
         /// Variable del diseñador necesaria.
-        /// </summary>
+        ///
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
+        ///
         /// Limpiar los recursos que se estén usando.
-        /// </summary>
-        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        ///
+        ///
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,10 +22,10 @@
 
         #region Código generado por el Diseñador de Windows Forms
 
-        /// <summary>
+        ///
         /// Método necesario para admitir el Diseñador. No se puede modificar
         /// el contenido de este método con el editor de código.
-        /// </summary>
+        ///
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
@@ -35,9 +35,9 @@
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
+            //
             // label1
-            // 
+            //
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 24);
@@ -45,9 +45,9 @@
             this.label1.Size = new System.Drawing.Size(81, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Usuario :";
-            // 
+            //
             // label2
-            // 
+            //
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(12, 74);
@@ -55,41 +55,41 @@
             this.label2.Size = new System.Drawing.Size(112, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Contraseña :";
-            // 
+            //
             // btnAcceder
-            // 
+            //
             this.btnAcceder.Location = new System.Drawing.Point(18, 167);
             this.btnAcceder.Name = "btnAcceder";
             this.btnAcceder.Size = new System.Drawing.Size(75, 23);
             this.btnAcceder.TabIndex = 2;
             this.btnAcceder.Text = "Acceder";
             this.btnAcceder.UseVisualStyleBackColor = true;
-            // 
+            //
             // btnSalir
-            // 
+            //
             this.btnSalir.Location = new System.Drawing.Point(182, 167);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 23);
             this.btnSalir.TabIndex = 3;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
-            // 
+            //
             // txtUsuario
-            // 
+            //
             this.txtUsuario.Location = new System.Drawing.Point(120, 26);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(158, 20);
             this.txtUsuario.TabIndex = 4;
-            // 
+            //
             // txtContraseña
-            // 
+            //
             this.txtContraseña.Location = new System.Drawing.Point(120, 76);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(158, 20);
             this.txtContraseña.TabIndex = 5;
-            // 
+            //
             // frmVentanaAcceso
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(290, 261);
@@ -118,4 +118,3 @@
         private System.Windows.Forms.TextBox txtContraseña;
     }
 }
-
