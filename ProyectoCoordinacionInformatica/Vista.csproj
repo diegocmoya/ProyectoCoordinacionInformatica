@@ -46,11 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmVentanaAcceso.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmVentanaAcceso.Designer.cs">
-      <DependentUpon>frmVentanaAcceso.cs</DependentUpon>
+    <Compile Include="Form1.cs" />
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="menuPrincipal.cs">
       <SubType>Form</SubType>
@@ -60,6 +58,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
+    <EmbeddedResource Include="menuPrincipal.resx">
+      <DependentUpon>menuPrincipal.cs</DependentUpon>
+=======
 
     <EmbeddedResource Include="menuPrincipal.resx">
       <DependentUpon>menuPrincipal.cs</DependentUpon>
@@ -67,6 +69,7 @@
     <EmbeddedResource Include="frmVentanaAcceso.resx">
       <DependentUpon>frmVentanaAcceso.cs</DependentUpon>
 
+>>>>>>> 38cddb4035a044fe9df0f830d49076bc2fd89f4f
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
