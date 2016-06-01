@@ -16,5 +16,10 @@ namespace ProyectoCoordinacionInformatica
         {
             InitializeComponent();
         }
+
+        private void frmVentanaAcceso_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
