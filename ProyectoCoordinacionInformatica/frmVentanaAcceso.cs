@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ProyectoCoordinacionInformatica
@@ -16,5 +9,28 @@ namespace ProyectoCoordinacionInformatica
         {
             InitializeComponent();
         }
+
+        private void btnAcceder_Click(object sender, EventArgs e)
+        {
+            if (txtUsuario.Text.Equals("123")&& txtContraseña.Text.Equals("123"))
+            {
+                this.SetVisibleCore(false);
+                menuPrincipal menu = new menuPrincipal(this);
+                menu.Show();
+                
+            }
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        public void limpiar()
+        {
+            this.txtContraseña.Text = "";
+            this.txtUsuario.Text = "";
+        }
+
     }
 }

@@ -12,17 +12,24 @@ namespace ProyectoCoordinacionInformatica
 {
     public partial class menuPrincipal : Form
     {
-        
+        private frmVentanaAcceso ventanaAcceso;
 
-        public menuPrincipal()
+        public menuPrincipal(frmVentanaAcceso ventanaAcceso)
         {
             InitializeComponent();
+            this.ventanaAcceso = ventanaAcceso;
         }
 
         private void ExitToolsStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.SetVisibleCore(false);
+            ventanaAcceso.limpiar();
+            ventanaAcceso.Show();
         }
-        
+
+        private void menuPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
