@@ -64,7 +64,10 @@
             this.btnAcceder.TabIndex = 2;
             this.btnAcceder.Text = "Acceder";
             this.btnAcceder.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.btnAcceder.Click += new System.EventHandler(this.btnAcceder_Click);
+=======
+>>>>>>> 9ae357149707623af94bb4f8feb17a18b05b84d0
             // 
             // btnSalir
             // 
@@ -74,7 +77,10 @@
             this.btnSalir.TabIndex = 3;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+=======
+>>>>>>> 9ae357149707623af94bb4f8feb17a18b05b84d0
             // 
             // txtUsuario
             // 
@@ -105,6 +111,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "frmVentanaAcceso";
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.frmVentanaAcceso_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
